@@ -6,6 +6,9 @@
     <typeAliases>
         <typeAlias alias="Student" type="cn.lz.mybatis.chapter2.Student"/>
     </typeAliases>
+    <typeHandlers>
+        <typeHandler handler="cn.lz.mybatis.typehandlers.typehandlers"/>
+    </typeHandlers>
     <environments default="development">
         <environment id="development">
             <transactionManager type="jdbc"></transactionManager>

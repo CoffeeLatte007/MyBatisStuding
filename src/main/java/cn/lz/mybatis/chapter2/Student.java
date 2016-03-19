@@ -12,6 +12,7 @@ public class Student
     private String name;
     private String email;
     private Date dob;
+    private PhoneNumber phoneNumber;
 // setters and getters
 
     public Integer getStudId() {
@@ -53,6 +54,7 @@ public class Student
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", dob=" + dob +
+                ", phoneNumber=" + phoneNumber.getAsString() +
                 '}';
     }
 }
