@@ -17,7 +17,7 @@ public class StudentTest {
         StudentMapper studentMapper=sqlSession.getMapper(StudentMapper.class);
         List<Student> students=studentMapper.findAllStudents();
         for (Student student:students){
-            System.out.println(student);
+            System.out.println(student+"s");
         }
     }
 }
